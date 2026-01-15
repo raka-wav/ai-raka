@@ -32,3 +32,6 @@ function addChat(type, text) {
   chat.appendChild(div);
   chat.scrollTop = chat.scrollHeight;
 }
+window.onload = () => {
+  addChat("bot", "Halo 👋 ada yang bisa dibantu? Aku AI Raka 🤖");
+};
